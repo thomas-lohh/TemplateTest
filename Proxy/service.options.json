@@ -1,0 +1,26 @@
+{
+  "workdir": "/app",
+  "port": 80,
+  "manifest": "manifest.json",
+  "logging": {
+    "logdir": "/app/logs",
+    "logfile": "service.log",
+    "loglevel": "DEBUG",
+    "rotation": {
+      "maxsize": 1048576,
+      "backups": 10  
+    }
+  },
+  "license": {
+    "enabled": false,
+    "type": "MLSERVICE_RECEIPTS",
+    "server": "https://uipath-cloud-dev.eu.auth0.com",
+    "validation_url_template": "/discovery/account/mlservice/{service}?mlServiceKey={api_key}",
+    "oauth_config": {
+        "client_id": "STdBJ4wsTgckyQduJg3v3fE7N6eu3idI",
+        "client_secret": "OfNK9dwMaJ78sAOV1h7bbf98jq3WYzpUWIyuxK4jcYwLhkcUw7sC_tVlkw6CMkEe",
+        "audience": "https://uipath-cloud-dev.eu.auth0.com/api/v2/",
+        "grant_type": "client_credentials"
+    }
+  }
+}

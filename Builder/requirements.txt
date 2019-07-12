@@ -1,0 +1,16 @@
+dateparser
+Flask
+html2text
+pandas
+Redis
+sklearn
+opencv-python
+matplotlib
+IPython
+tensorflow
+tensorboard
+prometheus_flask_exporter
+prometheus_client
+img2pdf
+jwt
+gevent
